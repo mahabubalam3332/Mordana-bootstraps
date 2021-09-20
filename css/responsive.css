@@ -1,0 +1,28 @@
+@media only screen and (max-width: 576px){
+    .py-5 {
+        padding-top:0px!important;
+       padding-bottom:0px !important;
+    }
+    .pe-5 {
+        padding-right:0px!important;
+    }
+    .me-5 {
+        margin-right: 0px !important;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    /* service */
+    .py-5 {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .pe-5 {
+        padding-right:0px!important;
+    }
+    .me-5 {
+        margin-right: 0px !important;
+    }
+
+
+}

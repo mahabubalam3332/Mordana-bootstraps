@@ -57,6 +57,16 @@ li.nav-item a {
     background-color: #fff;
     box-shadow: 0px 2px 15px rgba(18, 66, 101/ 8%)
 }
+/* service */
+.service-hover {
+    filter:grayscale(100%) ;
+    transition:all ease 0.3s ;
+}
+.service-hover:hover .h-100{
+    filter:grayscale(1%);
+    transform:scale(1.05)
+    
+}
 /* why us */
 .section-bg {
     background-color: #f3f8fa;
@@ -90,4 +100,35 @@ list-style:none;
 }
 .search-rounded{
     border-radius: 30px;
+}
+/* footer */
+.footer-section{
+    background: #082C46;
+}
+.footer-h5{
+    color:#fff;
+}
+ul li a {
+    text-decoration: none;
+    color:#fff;
+}
+ul li{
+    list-style: none;
+    padding:5px 0;
+}
+.paragraph-color{
+    color:#fff;
+   padding-top:20px;
+}
+
+
+.icon-color{
+    background:#1e4356;
+    border-radius: 50%;
+    color:#fff;
+    transition: all ease 0.3s;
+}
+.icon-color:hover{
+    background: #8ec1db;
+    
 }
